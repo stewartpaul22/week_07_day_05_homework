@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6164b28c-ba46-4721-a3e2-4dd7e4d9a3e0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/classes/Shop.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/classes/TestShop.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classes/Shop.java" afterPath="$PROJECT_DIR$/src/main/java/classes/Shop.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/classes/TestShop.java" afterPath="$PROJECT_DIR$/src/test/java/classes/TestShop.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -70,11 +69,30 @@
           <file leaf-file-name="Shop.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/classes/Shop.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+                <state relative-caret-position="360">
+                  <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#214#215#0" expanded="true" />
+                    <element signature="e#309#310#0" expanded="true" />
+                    <element signature="e#336#337#0" expanded="true" />
+                    <element signature="e#381#382#0" expanded="true" />
+                    <element signature="e#409#410#0" expanded="true" />
+                    <element signature="e#464#465#0" expanded="true" />
+                    <element signature="e#503#504#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Instrument.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/classes/Instrument.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#521#522#0" expanded="true" />
+                    <element signature="e#558#559#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -87,8 +105,8 @@
           <file leaf-file-name="TestGuitar.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/classes/TestGuitar.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="660">
-                  <caret line="60" column="60" lean-forward="false" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
+                <state relative-caret-position="255">
+                  <caret line="15" column="139" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="139" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#468#469#0" expanded="true" />
@@ -117,10 +135,12 @@
           <file leaf-file-name="TestShop.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/classes/TestShop.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+                <state relative-caret-position="391">
+                  <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#643#644#0" expanded="true" />
+                    <element signature="e#702#703#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -442,8 +462,8 @@
         <option value="$PROJECT_DIR$/src/main/java/classes/Instrument.java" />
         <option value="$PROJECT_DIR$/src/test/java/classes/TestGuitar.java" />
         <option value="$PROJECT_DIR$/src/main/java/classes/Guitar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classes/Shop.java" />
         <option value="$PROJECT_DIR$/src/test/java/classes/TestShop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classes/Shop.java" />
       </list>
     </option>
   </component>
@@ -560,7 +580,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in WeeAlsTrumpetEmporium_test (3)">
+  <component name="RunManager" selected="JUnit.All in WeeAlsTrumpetEmporium_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -582,47 +602,27 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="All in WeeAlsTrumpetEmporium_test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="WeeAlsTrumpetEmporium_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="All in WeeAlsTrumpetEmporium_test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="WeeAlsTrumpetEmporium_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="All in WeeAlsTrumpetEmporium_test (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="WeeAlsTrumpetEmporium_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="All in WeeAlsTrumpetEmporium_test (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="WeeAlsTrumpetEmporium_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -671,6 +671,31 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestShop.canGetStockList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="WeeAlsTrumpetEmporium_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="classes" />
+      <option name="MAIN_CLASS_NAME" value="classes.TestShop" />
+      <option name="METHOD_NAME" value="canGetStockList" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -743,19 +768,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.All in WeeAlsTrumpetEmporium_test (5)" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.All in WeeAlsTrumpetEmporium_test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.All in WeeAlsTrumpetEmporium_test (1)" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.All in WeeAlsTrumpetEmporium_test (2)" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.All in WeeAlsTrumpetEmporium_test (3)" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All in WeeAlsTrumpetEmporium_test (3)" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.All in WeeAlsTrumpetEmporium_test (4)" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in WeeAlsTrumpetEmporium_test (5)" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestShop.canGetStockList" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in WeeAlsTrumpetEmporium_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in WeeAlsTrumpetEmporium_test (3)" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in WeeAlsTrumpetEmporium_test (2)" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in WeeAlsTrumpetEmporium_test (1)" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.All in WeeAlsTrumpetEmporium_test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.All in WeeAlsTrumpetEmporium_test (5)" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in WeeAlsTrumpetEmporium_test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestShop.canGetStockList" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in WeeAlsTrumpetEmporium_test (5)" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.All in WeeAlsTrumpetEmporium_test (4)" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.All in WeeAlsTrumpetEmporium_test (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -782,29 +807,29 @@
     <history-entry file="All_in_WeeAlsTrumpetEmporium_test - 2018.03.09 at 15h 44m 26s.xml">
       <configuration name="All in WeeAlsTrumpetEmporium_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_WeeAlsTrumpetEmporium_test - 2018.03.09 at 17h 55m 54s.xml">
+      <configuration name="All in WeeAlsTrumpetEmporium_test" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="All_in_WeeAlsTrumpetEmporium_test_(1) - 2018.03.09 at 15h 52m 52s.xml">
       <configuration name="All in WeeAlsTrumpetEmporium_test (1)" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_WeeAlsTrumpetEmporium_test_(1) - 2018.03.09 at 15h 53m 02s.xml">
       <configuration name="All in WeeAlsTrumpetEmporium_test (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_WeeAlsTrumpetEmporium_test_(2) - 2018.03.09 at 15h 40m 07s.xml">
-      <configuration name="All in WeeAlsTrumpetEmporium_test (2)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_WeeAlsTrumpetEmporium_test_(2) - 2018.03.09 at 16h 04m 32s.xml">
       <configuration name="All in WeeAlsTrumpetEmporium_test (2)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_WeeAlsTrumpetEmporium_test_(3) - 2018.03.09 at 15h 41m 14s.xml">
-      <configuration name="All in WeeAlsTrumpetEmporium_test (3)" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_WeeAlsTrumpetEmporium_test_(3) - 2018.03.09 at 16h 05m 22s.xml">
       <configuration name="All in WeeAlsTrumpetEmporium_test (3)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_WeeAlsTrumpetEmporium_test_(4) - 2018.03.09 at 15h 42m 01s.xml">
+    <history-entry file="All_in_WeeAlsTrumpetEmporium_test_(4) - 2018.03.09 at 17h 49m 32s.xml">
       <configuration name="All in WeeAlsTrumpetEmporium_test (4)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_WeeAlsTrumpetEmporium_test_(5) - 2018.03.09 at 15h 43m 36s.xml">
+    <history-entry file="All_in_WeeAlsTrumpetEmporium_test_(5) - 2018.03.09 at 17h 50m 18s.xml">
       <configuration name="All in WeeAlsTrumpetEmporium_test (5)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShop_canGetStockList - 2018.03.09 at 17h 51m 14s.xml">
+      <configuration name="TestShop.canGetStockList" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -832,7 +857,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903265" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
@@ -846,7 +871,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -874,10 +901,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classes/Guitar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/Playable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classes/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/classes/TestGuitar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="60" column="60" lean-forward="false" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
+        <state relative-caret-position="255">
+          <caret line="15" column="139" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="139" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#468#469#0" expanded="true" />
@@ -902,14 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/Playable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/Sellable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -918,27 +977,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classes/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/classes/Instrument.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#521#522#0" expanded="true" />
@@ -947,38 +989,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classes/Guitar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/classes/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="360">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/classes/TestShop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="391">
+          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
           </folding>
         </state>
       </provider>
