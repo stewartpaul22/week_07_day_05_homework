@@ -13,4 +13,12 @@ public class Guitar extends Instrument {
         this.guitarType = guitarType;
         this.stringNumber = stringNumber;
     }
+
+    public GuitarType getGuitarType() {
+        return guitarType;
+    }
+
+    public int getStringNumber() {
+        return stringNumber;
+    }
 }
