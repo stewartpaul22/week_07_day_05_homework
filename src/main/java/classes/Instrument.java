@@ -1,8 +1,9 @@
 package classes;
 
 import enums.InstrumentType;
+import interfaces.Playable;
 
-public abstract class Instrument extends Product {
+public abstract class Instrument extends Product implements Playable {
 
     private InstrumentType instrumentType;
 

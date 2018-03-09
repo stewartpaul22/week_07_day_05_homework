@@ -51,5 +51,8 @@ public class TestGuitar {
         assertEquals(6, guitar1.getStringNumber());
     }
 
-
+    @Test
+    public void canPlay() {
+        assertEquals("brrrnnnnggg!!!", guitar1.play());
+    }
 }
