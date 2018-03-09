@@ -29,8 +29,23 @@ public class TestShop {
     }
 
     @Test
+    public void canAddProductToStock() {
+        shop.addProductToStock(guitar1);
+        assertEquals(1, shop.getStockCount());
+    }
+
+    @Test
     public void canGetStockList() {
         shop.addProductToStock(guitar1);
         assertEquals(stock, shop.getStock());
     }
+
+    @Test
+    public void canSellProduct() {
+        shop.addProductToStock(guitar1);
+        shop.sellProduct(guitar1);
+        assertEquals(0, shop.getStockCount());
+    }
+
+
 }

@@ -25,4 +25,12 @@ public class Shop {
     public void addProductToStock(Sellable product) {
         this.stock.add(product);
     }
+
+    public void sellProduct(Sellable product) {
+        this.stock.remove(product);
+    }
+
+    public int getStockCount() {
+        return this.stock.size();
+    }
 }
