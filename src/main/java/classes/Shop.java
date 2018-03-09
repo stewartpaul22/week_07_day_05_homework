@@ -8,6 +8,7 @@ public class Shop {
 
     private String name;
     private ArrayList<Sellable> stock;
+    //private double totalPotentialProfit;
 
     public Shop(String name, ArrayList<Sellable> stock) {
         this.name = name;
@@ -32,5 +33,13 @@ public class Shop {
 
     public int getStockCount() {
         return this.stock.size();
+    }
+
+    public double getTotalPotentialProfit() {
+        double total = 0;
+        for (Sellable product : stock) {
+            total += product.calculateMarkup();
+        }
+        return total;
     }
 }
