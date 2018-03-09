@@ -2,8 +2,9 @@ package classes;
 
 import enums.InstrumentType;
 import interfaces.Playable;
+import interfaces.Sellable;
 
-public abstract class Instrument extends Product implements Playable {
+public abstract class Instrument extends Product implements Playable, Sellable {
 
     private InstrumentType instrumentType;
 
