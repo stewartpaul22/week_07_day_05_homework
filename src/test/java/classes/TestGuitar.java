@@ -9,11 +9,11 @@ import static org.junit.Assert.assertEquals;
 
 public class TestGuitar {
 
-    Guitar guitar1;
+    private Guitar guitar1;
 
     @Before
     public void setUp() {
-        guitar1 = new Guitar("Gibson", "ES-339 Studio Ginger Burst (2016)", 1200.00, 1519.00, InstrumentType.GUITAR, GuitarType.ELECTRIC, 6);
+        guitar1 = new Guitar("Gibson", "ES-339 Studio", 1200.00, 1519.00, InstrumentType.GUITAR, GuitarType.ELECTRIC, 6, "Ginger Burst");
     }
 
     @Test
@@ -23,7 +23,7 @@ public class TestGuitar {
 
     @Test
     public void canGetModel() {
-        assertEquals("ES-339 Studio Ginger Burst (2016)", guitar1.getModel());
+        assertEquals("ES-339 Studio", guitar1.getModel());
     }
 
     @Test
@@ -49,6 +49,11 @@ public class TestGuitar {
     @Test
     public void canGetStringNumber() {
         assertEquals(6, guitar1.getStringNumber());
+    }
+
+    @Test
+    public void canGetColour() {
+        assertEquals("Ginger Burst", guitar1.getColour());
     }
 
     @Test

@@ -7,11 +7,13 @@ public class Guitar extends Instrument {
 
     private GuitarType guitarType;
     private int stringNumber;
+    private String colour;
 
-    public Guitar(String manufacturer, String model, double purchasePrice, double sellPrice, InstrumentType instrumentType, GuitarType guitarType, int stringNumber) {
+    public Guitar(String manufacturer, String model, double purchasePrice, double sellPrice, InstrumentType instrumentType, GuitarType guitarType, int stringNumber, String colour) {
         super(manufacturer, model, purchasePrice, sellPrice, instrumentType);
         this.guitarType = guitarType;
         this.stringNumber = stringNumber;
+        this.colour = colour;
     }
 
     public GuitarType getGuitarType() {
@@ -20,6 +22,10 @@ public class Guitar extends Instrument {
 
     public int getStringNumber() {
         return stringNumber;
+    }
+
+    public String getColour() {
+        return colour;
     }
 
     @Override

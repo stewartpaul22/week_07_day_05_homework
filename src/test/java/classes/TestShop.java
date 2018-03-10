@@ -1,6 +1,7 @@
 package classes;
 
 import classes.instrument_enums.GuitarType;
+import classes.instrument_enums.PianoType;
 import enums.InstrumentType;
 import interfaces.Sellable;
 import org.junit.Before;
@@ -12,22 +13,26 @@ import static org.junit.Assert.assertEquals;
 
 public class TestShop {
 
-    ArrayList<Sellable> stock;
-    Shop shop;
-    Guitar guitar1;
-    Guitar guitar2;
+    private ArrayList<Sellable> stock;
+    private Shop shop;
+    private Guitar guitar1;
+    private Guitar guitar2;
+    private Piano piano1;
+    private Piano piano2;
 
     @Before
     public void setUp() {
-        guitar1 = new Guitar("Gibson", "ES-339 Studio Ginger Burst (2016)", 1200.00, 1519.00, InstrumentType.GUITAR, GuitarType.ELECTRIC, 6);
-        guitar2 = new Guitar("Taylor", "618e ES2", 3000.00, 3249.00, InstrumentType.GUITAR, GuitarType.ELECTRIC, 6);
+        guitar1 = new Guitar("Gibson", "ES-339 Studio", 1200.00, 1519.00, InstrumentType.GUITAR, GuitarType.ELECTRIC, 6, "Ginger Burst");
+        guitar2 = new Guitar("Taylor", "618e ES2", 3000.00, 3249.00, InstrumentType.GUITAR, GuitarType.ACOUSTIC, 6, "Natural sitka");
+        piano1 = new Piano("Yamaha", "C3X Grand Piano", 22000.00, 25270.00, InstrumentType.PIANO, PianoType.ACOUSTIC, 88, "Polished Ebony");
+        piano2 = new Piano("Nord", "Stage 3 88", 30000.00, 3459.00, InstrumentType.PIANO, PianoType.ELECTRIC, 88, "Candy Apple Red");
         stock = new ArrayList<>();
-        shop = new Shop("Jeff's Gear", stock);
+        shop = new Shop("Wee Al's Trumpet Emporium", stock);
     }
 
     @Test
     public void canGetName() {
-        assertEquals("Jeff's Gear", shop.getName());
+        assertEquals("Wee Al's Trumpet Emporium", shop.getName());
     }
 
     @Test

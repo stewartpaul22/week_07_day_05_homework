@@ -8,7 +8,6 @@ public class Shop {
 
     private String name;
     private ArrayList<Sellable> stock;
-    //private double totalPotentialProfit;
 
     public Shop(String name, ArrayList<Sellable> stock) {
         this.name = name;
