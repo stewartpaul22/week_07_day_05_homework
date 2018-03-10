@@ -10,7 +10,6 @@ import static org.junit.Assert.assertEquals;
 public class TestPiano {
 
     private Piano piano1;
-    private Piano piano2;
 
     @Before
     public void setUp() {
@@ -55,5 +54,15 @@ public class TestPiano {
     @Test
     public void canGetColour() {
         assertEquals("Polished Ebony", piano1.getColour());
+    }
+
+    @Test
+    public void canPlay() {
+        assertEquals("Plink plink plink", piano1.play());
+    }
+
+    @Test
+    public void canGetMarkup() {
+        assertEquals(3270.00, piano1.calculateMarkup(), 0.01);
     }
 }

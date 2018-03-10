@@ -44,6 +44,9 @@ public class TestShop {
     @Test
     public void canGetStockList() {
         shop.addProductToStock(guitar1);
+        shop.addProductToStock(guitar2);
+        shop.addProductToStock(piano1);
+        shop.addProductToStock(piano2);
         assertEquals(stock, shop.getStock());
     }
 
