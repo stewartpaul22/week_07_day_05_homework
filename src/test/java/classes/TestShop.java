@@ -1,5 +1,6 @@
 package classes;
 
+import classes.instrument_enums.BrassType;
 import classes.instrument_enums.GuitarType;
 import classes.instrument_enums.PianoType;
 import enums.InstrumentType;
@@ -19,6 +20,7 @@ public class TestShop {
     private Guitar guitar2;
     private Piano piano1;
     private Piano piano2;
+    private Brass trumpet;
 
     @Before
     public void setUp() {
@@ -26,6 +28,7 @@ public class TestShop {
         guitar2 = new Guitar("Taylor", "618e ES2", 3000.00, 3249.00, InstrumentType.GUITAR, GuitarType.ACOUSTIC, 6, "Natural sitka");
         piano1 = new Piano("Yamaha", "C3X Grand Piano", 22000.00, 25270.00, InstrumentType.PIANO, PianoType.ACOUSTIC, 88, "Polished Ebony");
         piano2 = new Piano("Nord", "Stage 3 88", 30000.00, 3459.00, InstrumentType.PIANO, PianoType.ELECTRIC, 88, "Candy Apple Red");
+        trumpet = new Brass("Yamaha", "YTR6610S Eb D", 1800.00, 1945.00, InstrumentType.BRASS, BrassType.TRUMPET, "Silver");
         stock = new ArrayList<>();
         shop = new Shop("Wee Al's Trumpet Emporium", stock);
     }
