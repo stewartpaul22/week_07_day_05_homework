@@ -3,7 +3,7 @@ package classes;
 import enums.AccessoryType;
 import interfaces.Sellable;
 
-public class Accessory extends Product implements Sellable {
+public abstract class Accessory extends Product implements Sellable {
 
     private AccessoryType accessoryType;
 
@@ -12,8 +12,7 @@ public class Accessory extends Product implements Sellable {
         this.accessoryType = accessoryType;
     }
 
-    @Override
-    public double calculateMarkup() {
-        return this.getSellPrice() - this.getPurchasePrice();
+    public AccessoryType getAccessoryType() {
+        return accessoryType;
     }
 }
