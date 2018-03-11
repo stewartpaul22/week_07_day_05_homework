@@ -27,7 +27,9 @@ public class Shop {
     }
 
     public void sellProduct(Sellable product) {
-        this.stock.remove(product);
+        if (!this.stock.isEmpty()) {
+            this.stock.remove(product);
+        }
     }
 
     public int getStockCount() {

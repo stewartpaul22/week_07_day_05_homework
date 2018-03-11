@@ -12,7 +12,7 @@ public class TestBrass {
     private Brass trumpet;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         trumpet = new Brass("Yamaha", "YTR6610S Eb D", 1800.00, 1945.00, InstrumentType.BRASS, BrassType.TRUMPET, "Silver");
     }
 

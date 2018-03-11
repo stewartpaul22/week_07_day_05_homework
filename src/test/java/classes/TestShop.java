@@ -48,12 +48,21 @@ public class TestShop {
         shop.addProductToStock(piano1);
         shop.addProductToStock(piano2);
         assertEquals(stock, shop.getStock());
+        assertEquals(4, shop.getStockCount());
     }
 
     @Test
     public void canSellProduct() {
         shop.addProductToStock(guitar1);
+        shop.addProductToStock(guitar2);
         shop.sellProduct(guitar1);
+        assertEquals(1, shop.getStockCount());
+    }
+
+    @Test
+    public void cannotSellProductWhenStockIsZero() {
+        shop.sellProduct(guitar1);
+        shop.sellProduct(guitar2);
         assertEquals(0, shop.getStockCount());
     }
 
